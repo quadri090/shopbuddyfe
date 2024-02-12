@@ -9,7 +9,7 @@ function App() {
     <>
       <div className='w-full'>
         <Header/>
-        <Menu></Menu>
+        <Menu/>
       </div>
     </>
   )

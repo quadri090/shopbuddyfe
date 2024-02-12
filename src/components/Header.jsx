@@ -70,19 +70,22 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-between sm:h-28 sm:flex-row">
-        <p className="text-4xl font-bold">ShopBuddy</p>
+      <div className="flex flex-col gap-4 md:gap-0 items-center justify-between sm:h-28 sm:flex-row">
+        <p className="text-2xl md:text-4xl font-bold">ShopBuddy</p>
         <div className="flex gap-2 items-center rounded-md outline outline-1  outline-zinc-200 active:outline active:outline-black sm:w-[600px]">
           <input
             type="text"
             placeholder="Enter your product name"
             className="h-10 bg-inherit px-4 text-lg outline-none sm:w-[560px]"
           />
-          <div className="text-xl hover:text-orange-500">
+          <div className="text-xl hover:text-orange-500 px-2 md:px-3">
 
             <IoIosSearch />
           </div>
         </div>
+
+        <div className="block md:hidden border-b w-full py-1"></div>
+
         <div className="hidden gap-6 text-[28px] font-extralight sm:flex">
           <FaRegUser />
 
