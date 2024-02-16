@@ -10,3 +10,11 @@
     padding: 15px
   }
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}

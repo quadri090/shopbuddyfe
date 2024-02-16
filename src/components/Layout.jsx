@@ -21,7 +21,7 @@ export const Layout = (props) => {
 
   return (
     <div>
-      <div className="fixed bottom-0 left-0 flex h-16 w-full bg-white shadow-[15px_15px_15px_15px_rgba(0,0,0,0.35)] sm:w-[500px] md:hidden">
+      <div className="fixed bottom-0 left-0 flex h-16 w-full bg-white sm:rounded-t-xl shadow-[0px_15px_15px_15px_rgba(0,0,0,0.35)] sm:mx-auto sm:w-[50%] sm:-right-[25%] sm:-left-[25%] md:hidden">
         <div className="flex w-full items-center justify-center gap-8">
           <Icons>
             <IoMenuOutline />
