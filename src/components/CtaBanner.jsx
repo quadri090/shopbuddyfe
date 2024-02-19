@@ -3,7 +3,7 @@ import Ctabanner from "../assets/cta-banner.jpg";
 
 export default function CtaBanner() {
   return (
-    <div className="relative">
+    <div className="relative col-span-2">
       <img
         src={Ctabanner}
         alt="Hero image"

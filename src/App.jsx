@@ -1,4 +1,3 @@
-// import { useState } from 'react'
 import './App.css'
 import Header from './components/Header'
 import Menu from './components/Menu'
@@ -8,12 +7,13 @@ import ItemsSmContainer from './components/ItemsSmContainer'
 import Layout from './components/Layout'
 import CallToAction from './components/CallToAction'
 import BlogContentContainer from './components/BlogContent'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
-      <div className='w-full relative'>
+      <div className='md:max-w-7xl p-[15px] mx-auto relative'>
         <Header/>
         <Menu/>
         <Hero/>
@@ -23,6 +23,7 @@ function App() {
         <CallToAction />
         <BlogContentContainer />
       </div>
+        <Footer />
     </>
   )
 }
