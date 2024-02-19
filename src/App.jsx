@@ -6,18 +6,22 @@ import Hero from './components/Hero'
 import Categories from './components/categories'
 import ItemsSmContainer from './components/ItemsSmContainer'
 import Layout from './components/Layout'
+import CallToAction from './components/CallToAction'
+import BlogContentContainer from './components/BlogContent'
 
 function App() {
 
   return (
     <>
-      <div className='w-full relative mb-20'>
+      <div className='w-full relative'>
         <Header/>
         <Menu/>
         <Hero/>
         <Categories />
         <ItemsSmContainer/>
         <Layout />
+        <CallToAction />
+        <BlogContentContainer />
       </div>
     </>
   )
