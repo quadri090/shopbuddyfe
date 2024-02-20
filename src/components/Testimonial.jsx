@@ -8,7 +8,7 @@ export default function Testimonial() {
     <article className="text-zinc-500 ">
       <HeadingText header="Testimonials" />
       <div className="rounded-lg outline outline-1 outline-zinc-200">
-        <div className="mx-auto flex flex-col items-center gap-2 p-8 sm:w-[70%] md:w-full">
+        <div className="mx-auto flex flex-col items-center text-center gap-2 p-8 sm:w-[70%] md:w-full">
           <img src={Testimonial1} alt="" className="h-24 w-24 rounded-full" />
           <p className="font-bold">ALAN DOE</p>
           <p className="text-black">CEO & Founder Invision</p>

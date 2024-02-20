@@ -19,7 +19,7 @@ function FooterBlock2(props) {
       <p className="text-sm font-bold text-white sm:text-base">
         {props.header.toUpperCase()}{" "}
       </p>
-      <div className="w-[30%] border-[1px] mt-1  border-b border-orange-500"></div>
+      <div className="w-[20%] sm:w-[30%] border-[1px] mt-1  border-b border-orange-500"></div>
       <div className="flex flex-col gap-1 py-2 md:py-4">{props.children}</div>
     </div>
   );
@@ -27,9 +27,9 @@ function FooterBlock2(props) {
 
 export default function Footer() {
   return (
-    <div className="bg-zinc-800 px-5 text-left text-zinc-500">
-      <div className="py-8"></div>
-      <div className="py-8 flex flex-col gap-4 sm:grid sm:grid-cols-2 md:grid-cols-5">
+    <div className="bg-zinc-800 px-5 pb-10 md:pb-0 text-left text-zinc-500 poppins-light">
+      {/* <div className="py-8"></div> */}
+      <div className="py-8 flex flex-col gap-4 sm:grid sm:grid-cols-3 md:grid-cols-5 max-w-7xl mx-auto">
         <FooterBlock2 header="popular categories">
           <TextContent2 text="Fashion" />
           <TextContent2 text="Electronic" />

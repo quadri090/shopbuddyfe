@@ -34,7 +34,7 @@ function Items(props) {
 
 export default function BestSellersSideBar() {
   return (
-    <div className='flex flex-col gap-2'>
+    <div className='flex flex-col gap-1'>
          <Items
             iconSrc={one}
             desc="Baby Fabric Shoes"

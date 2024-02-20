@@ -6,7 +6,7 @@ import blog4 from "../assets/blog-4.jpg";
 
 function BlogContent(props) {
   return (
-    <div className="m-1 hover:cursor-pointer select-none">
+    <div className="m-1 md:m-0 hover:cursor-pointer select-none">
       <div className="w-[90vw] mx-auto sm:w-[44vw] md:w-auto">
         <img src={props.imgSrc} alt="" className=" rounded-lg" />
       </div>
@@ -25,7 +25,7 @@ function BlogContent(props) {
 
 export default function BlogContentContainer() {
   return (
-    <div className="my-16 flex gap-4 overflow-x-scroll scroll-smooth snap-x snap-start">
+    <div className="my-16 flex gap-4 overflow-x-scroll">
       <BlogContent
         imgSrc={blog1}
         category="Clothes"
